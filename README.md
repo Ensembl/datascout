@@ -12,7 +12,7 @@ Please, make sure you have all the proper credential, keys, etc. set up.
 ### Getting this repo
 
 ```
-git clone git@github.com:manuelcarbajo/AnnoDataScout
+git clone git@github.com:manuelcarbajo/datascout
 ```
 
 ### Configuration
@@ -32,7 +32,7 @@ conda env create -n microbes_gb -f microbes_gb.yml
 conda activate microbes_gb
 ```
 
-After downloading AnnoDataScout define your WORK_DIR (path to AnnoDataScout git repo), ENSEMBL_ROOT_DIR (path to your other ensembl git repositories) and diamond_path (path to a copy of uniprot_euk.fa.dmnd database)
+After downloading datascout define your WORK_DIR (path to datascout git repo), ENSEMBL_ROOT_DIR (path to your other ensembl git repositories) and diamond_path (path to a copy of uniprot_euk.fa.dmnd database)
 
 Place a tab separated list of genomes to annotate in "$WORK_DIR/data/genomes_list.csv"  
 (following the template in "$WORK_DIR/data/genomes_list_template.csv")  
