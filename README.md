@@ -1,4 +1,4 @@
-# AnnoDataScout
+# DataScout
 This repo queries and gather data from different resources which can then be used to run bulk automatised annotation of microbial genomes.
 The different types of data are:
 - OrthoDB and UniProt orthology data, 
